@@ -7,7 +7,7 @@ Firefox 85. It appears to be a regression caused by [bug
 ## Steps to reproduce
 
 1. Clone this repo
-2. `yarn install` (to get a local HTTP server)
+2. `yarn install` (to get a local HTTP server with COOP / COEP headers)
 3. `yarn serve`
 4. Go to http://localhost:5000
 5. Wait ~10s for the large Wasm blob to download
